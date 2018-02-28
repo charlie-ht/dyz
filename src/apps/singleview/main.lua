@@ -83,6 +83,7 @@ function module.run(args)
                         "allow-file-access-from-file-urls", true,
                         "allow-universal-access-from-file-urls", true,
                         "enable-write-console-messages-to-stdout", true,
+                        "enable-mediasource", true,
                         nil)
     local view = glib.g_object_new(wpe.webkit_web_view_get_type(),
                         "backend", view_backend,
