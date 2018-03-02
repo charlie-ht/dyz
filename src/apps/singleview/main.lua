@@ -54,6 +54,7 @@ function module.run(args)
                         "allow-universal-access-from-file-urls", true,
                         "enable-write-console-messages-to-stdout", true,
                         "enable-mediasource", true,
+                        "enable-encrypted-media", true,
                         nil)
     local view = glib.g_object_new(wpe.webkit_web_view_get_type(),
                         "web-context", web_context,
